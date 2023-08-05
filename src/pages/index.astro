@@ -1,6 +1,7 @@
 ---
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 import qrCode from "@images/image-qr-code.png";
+import favicon from "/favicon-32x32.png";
 ---
 
 <!DOCTYPE html>
@@ -10,7 +11,7 @@ import qrCode from "@images/image-qr-code.png";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon} />
     <GoogleFontsOptimizer
       url="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
     />
