@@ -3,7 +3,7 @@
 ## Tools Used
 
 1. Astro
-2. Tailwind
+2. Tailwindcss
 
 ## Use the following commands to view project
 
